@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="occ.bwdsp104.toolchain.configuration.debug.1098298237">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="occ.bwdsp104.toolchain.configuration.debug.1098298237" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" description="" id="occ.bwdsp104.toolchain.configuration.debug.1098298237" name="Debug" parent="occ.bwdsp104.toolchain.configuration.debug">
+					<folderInfo id="occ.bwdsp104.toolchain.configuration.debug.1098298237." name="/" resourcePath="">
+						<toolChain id="occ.bwdsp104.toolchain.configuration.tc.debug.2045802970" name="Open64 Tool-chain" superClass="occ.bwdsp104.toolchain.configuration.tc.debug">
+							<targetPlatform archList="BWDSP1042" binaryParser="org.eclipse.cdt.core.ELF" id="occ.toolchain.targetplatform.1042.1673769778" isAbstract="true" name="bwdsp1042" superClass="occ.toolchain.targetplatform.1042"/>
+							<builder buildPath="${workspace_loc:/201124/Debug}" id="occ.toolchain.debug.toolchain.builder.1042.1928963742" managedBuildOn="true" name="make.Debug" superClass="occ.toolchain.debug.toolchain.builder.1042"/>
+							<tool id="occ.toolchain.compiler.c.727755336" name="Compiler" superClass="occ.toolchain.compiler.c">
+								<inputType id="occ.toolchain.compiler.input.1042.1382682323" name="Compiler Input" superClass="occ.toolchain.compiler.input.1042"/>
+							</tool>
+							<tool id="occ.toolchain.linker.1042.2039591597" name="Linker" superClass="occ.toolchain.linker.1042"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="occ.bwdsp104.toolchain.configuration.release.1138864846">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="occ.bwdsp104.toolchain.configuration.release.1138864846" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" description="" id="occ.bwdsp104.toolchain.configuration.release.1138864846" name="Release" parent="occ.bwdsp104.toolchain.configuration.release">
+					<folderInfo id="occ.bwdsp104.toolchain.configuration.release.1138864846." name="/" resourcePath="">
+						<toolChain id="occ.bwdsp104.toolchain.configuration.tc.release.284786857" name="Open64 Tool-chain" superClass="occ.bwdsp104.toolchain.configuration.tc.release">
+							<targetPlatform archList="BWDSP1042" binaryParser="org.eclipse.cdt.core.ELF" id="occ.toolchain.targetplatform.1042.104580606" isAbstract="true" name="bwdsp1042" superClass="occ.toolchain.targetplatform.1042"/>
+							<builder buildPath="${workspace_loc:/201124/Release}" id="occ.toolchain.debug.toolchain.builder.1042.497798004" managedBuildOn="true" name="make.Release" superClass="occ.toolchain.debug.toolchain.builder.1042"/>
+							<tool id="occ.toolchain.compiler.c.release.1042.753884185" name="Compiler" superClass="occ.toolchain.compiler.c.release.1042">
+								<inputType id="occ.toolchain.compiler.input.1042.747762591" name="Compiler Input" superClass="occ.toolchain.compiler.input.1042"/>
+							</tool>
+							<tool id="occ.toolchain.linker.1042.release.1547170617" name="Linker" superClass="occ.toolchain.linker.1042.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="201124.occ.toolchain.executable.1042.508025595" name="Executable with C Runtime(for BWDSP104x)" projectType="occ.toolchain.executable.1042"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+</cproject>
